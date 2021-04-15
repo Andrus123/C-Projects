@@ -1,0 +1,6 @@
+C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\Farmacia\Farmacia\obj\Debug\Farmacia.csprojResolveAssemblyReference.cache
+C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\Farmacia\Farmacia\bin\Debug\Farmacia.exe.config
+C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\Farmacia\Farmacia\bin\Debug\Farmacia.exe
+C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\Farmacia\Farmacia\bin\Debug\Farmacia.pdb
+C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\Farmacia\Farmacia\obj\Debug\Farmacia.exe
+C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\Farmacia\Farmacia\obj\Debug\Farmacia.pdb
