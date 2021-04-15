@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 5.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matriz", "Matriz\Matriz.csproj", "{4FB10EE0-F443-4A98-8E6D-58B0A6F539B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Producto", "producto\producto.csproj", "{D19A5A46-C228-4586-9305-347539518986}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FB10EE0-F443-4A98-8E6D-58B0A6F539B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FB10EE0-F443-4A98-8E6D-58B0A6F539B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FB10EE0-F443-4A98-8E6D-58B0A6F539B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FB10EE0-F443-4A98-8E6D-58B0A6F539B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D19A5A46-C228-4586-9305-347539518986}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D19A5A46-C228-4586-9305-347539518986}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D19A5A46-C228-4586-9305-347539518986}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D19A5A46-C228-4586-9305-347539518986}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

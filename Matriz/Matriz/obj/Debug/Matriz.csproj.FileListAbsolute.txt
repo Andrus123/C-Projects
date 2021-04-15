@@ -1,0 +1,6 @@
+C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\Matriz\Matriz\bin\Debug\Matriz.exe.config
+C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\Matriz\Matriz\bin\Debug\Matriz.exe
+C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\Matriz\Matriz\bin\Debug\Matriz.pdb
+C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\Matriz\Matriz\obj\Debug\Matriz.csprojResolveAssemblyReference.cache
+C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\Matriz\Matriz\obj\Debug\Matriz.exe
+C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\Matriz\Matriz\obj\Debug\Matriz.pdb
