@@ -1,0 +1,6 @@
+C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\ClasesAbstractas\ClasesAbstractas\bin\Debug\ClasesAbstractas.exe.config
+C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\ClasesAbstractas\ClasesAbstractas\bin\Debug\ClasesAbstractas.exe
+C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\ClasesAbstractas\ClasesAbstractas\bin\Debug\ClasesAbstractas.pdb
+C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\ClasesAbstractas\ClasesAbstractas\obj\Debug\ClasesAbstractas.csprojResolveAssemblyReference.cache
+C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\ClasesAbstractas\ClasesAbstractas\obj\Debug\ClasesAbstractas.exe
+C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\ClasesAbstractas\ClasesAbstractas\obj\Debug\ClasesAbstractas.pdb
