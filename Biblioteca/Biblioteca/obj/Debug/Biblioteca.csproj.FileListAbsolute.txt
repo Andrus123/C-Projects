@@ -1,0 +1,12 @@
+C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\Biblioteca\Biblioteca\bin\Debug\Biblioteca.exe.config
+C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\Biblioteca\Biblioteca\bin\Debug\Biblioteca.exe
+C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\Biblioteca\Biblioteca\bin\Debug\Biblioteca.pdb
+C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csprojResolveAssemblyReference.cache
+C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\Biblioteca\Biblioteca\obj\Debug\Biblioteca.exe
+C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\Biblioteca\Biblioteca\obj\Debug\Biblioteca.pdb
+C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\CsharpPractica\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csprojResolveAssemblyReference.cache
+C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\CsharpPractica\Biblioteca\Biblioteca\obj\Debug\Biblioteca.exe
+C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\CsharpPractica\Biblioteca\Biblioteca\bin\Debug\Biblioteca.exe.config
+C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\CsharpPractica\Biblioteca\Biblioteca\bin\Debug\Biblioteca.exe
+C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\CsharpPractica\Biblioteca\Biblioteca\bin\Debug\Biblioteca.pdb
+C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\CsharpPractica\Biblioteca\Biblioteca\obj\Debug\Biblioteca.pdb
