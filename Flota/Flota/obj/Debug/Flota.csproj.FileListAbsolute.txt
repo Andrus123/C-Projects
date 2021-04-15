@@ -1,0 +1,6 @@
+C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\Flota\Flota\obj\Debug\Flota.csprojResolveAssemblyReference.cache
+C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\Flota\Flota\bin\Debug\Flota.exe.config
+C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\Flota\Flota\bin\Debug\Flota.exe
+C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\Flota\Flota\bin\Debug\Flota.pdb
+C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\Flota\Flota\obj\Debug\Flota.exe
+C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\Flota\Flota\obj\Debug\Flota.pdb
