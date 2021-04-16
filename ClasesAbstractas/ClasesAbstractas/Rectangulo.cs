@@ -22,7 +22,7 @@ namespace ClasesAbstractas
 		{
 			this.b = 5;
 			this.a = 3;
-			this.color = "Verde";
+			this.color = "amarillo";
 		}
 		public Rectangulo(string color, double b, double a)
 		{
@@ -33,7 +33,7 @@ namespace ClasesAbstractas
 		public void Mostrar(){
 			Console.WriteLine("\n Objeto Rectangulo");
 			base.Mostrar();
-			Console.WriteLine("[Base : "+this.b+"*"+this.a*": Altura]" );
+			Console.WriteLine("{Base: "+ this.b+ " Altura: " +this.a+"}");
 		}
 		//override para indicar de que se implementa un metodo abstracto
 		public override void Area(){
@@ -41,7 +41,13 @@ namespace ClasesAbstractas
 			Console.WriteLine((this.b*this.a));
 		}
 		public override double Perimetro(){
-			Console.WriteLine((2*this.b)+(2*this.a));
+			return((double)(2*this.b)+(2*this.a));
+		}
+		public override void compFigura(Figura X){
+			if(X.Color == this.color)
+				Console.WriteLine("Mismo Color");
+			else
+				Console.WriteLine("Distinto Color");
 		}
 	}
 }

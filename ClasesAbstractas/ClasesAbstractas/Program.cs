@@ -16,11 +16,13 @@ namespace ClasesAbstractas
 		{
 			Cuadrado A = new Cuadrado();
 			Cuadrado B = new Cuadrado("Verde",6);
+			Rectangulo C = new Rectangulo();
 			Cuadrado[] vc = new Cuadrado[30]; //Vector de objetos cuadrado, para almacenar
 											  // n objetos cuadrado
 			
 			A.Mostrar();
 			B.Mostrar();
+			C.Mostrar();
 			
 			A.Area();
 			
@@ -34,6 +36,12 @@ namespace ClasesAbstractas
 			
 			Console.WriteLine("\n Comparar dos Figuras Cuadrado si son del mismo Color");
 			A.compFigura(B);
+			
+			Console.WriteLine("\n Perimetro y Area de Figuras Rectangulo");
+			C.Perimetro();
+			C.Area();
+			
+			
 			
 			//EJERCICIOS
 			/*
