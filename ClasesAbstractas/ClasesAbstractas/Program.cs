@@ -32,9 +32,18 @@ namespace ClasesAbstractas
 			
 			Console.WriteLine(B.Perimetro());
 			
-			Console.WriteLine("\n Comparar dos Figuras Cuadrado ");
+			Console.WriteLine("\n Comparar dos Figuras Cuadrado si son del mismo Color");
+			A.compFigura(B);
 			
-			
+			//EJERCICIOS
+			/*
+			 * a. Implementar la clase Triangulo
+			 * b. Dado n objetos Cuadrado, cuantos tienen el color X
+			 * c. Dado dos triangulos verificar si son iguales
+			 * d. Implementar la clase Circulo
+			 * e. Dado n objetos rectangulo y un objeto cuadrado, determinar cuantos rectangulos
+			 *    tienen la misma area del cuadrado    
+			 */
 			
 			
 			//b)
@@ -60,7 +69,7 @@ namespace ClasesAbstractas
 			
 			
 			//llamada a procedimientos
-			llenar(vc, n);
+			//llenar(vc, n);
 			mostrar(vc, n);
 			
 			int  c =0;
