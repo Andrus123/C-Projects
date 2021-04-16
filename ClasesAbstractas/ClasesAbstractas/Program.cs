@@ -37,11 +37,9 @@ namespace ClasesAbstractas
 			Console.WriteLine("\n Comparar dos Figuras Cuadrado si son del mismo Color");
 			A.compFigura(B);
 			
-			Console.WriteLine("\n Perimetro y Area de Figuras Rectangulo");
+			Console.WriteLine("Perimetro y Area de Figuras Rectangulo");
 			C.Perimetro();
 			C.Area();
-			
-			
 			
 			//EJERCICIOS
 			/*
@@ -53,6 +51,11 @@ namespace ClasesAbstractas
 			 *    tienen la misma area del cuadrado    
 			 */
 			
+			//a)
+			Triangulo D = new Triangulo();
+			Console.WriteLine("Area y Perimetro de Figuras Triangulo");
+			D.Area();
+			D.Perimetro();
 			
 			//b)
 			Console.WriteLine("\nN objetos cuadrado");

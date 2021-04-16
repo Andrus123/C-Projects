@@ -40,7 +40,16 @@ namespace ClasesAbstractas
 			Console.WriteLine((this.b*this.a)/2);
 		}
 		public override double Perimetro(){
-			
+			double c= System.Math.Sqrt((a*a+b*b));
+			Console.WriteLine("Hipotenusa: "+c);
+			Console.WriteLine("Perimetro: "+(a+b+c));
+			return c;
+		}
+		public override void compFigura(Figura X){
+			if(X.Color == this.color)
+				Console.WriteLine("Mismo Color");
+			else
+				Console.WriteLine("Distinto Color");
 		}
 	}
 }
