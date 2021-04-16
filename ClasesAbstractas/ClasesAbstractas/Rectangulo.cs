@@ -13,10 +13,35 @@ namespace ClasesAbstractas
 	/// <summary>
 	/// Description of Rectangulo.
 	/// </summary>
-	public class Rectangulo
+	public class Rectangulo : Figura
 	{
+		private double b;
+		private double a;
+		
 		public Rectangulo()
 		{
+			this.b = 5;
+			this.a = 3;
+			this.color = "Verde";
+		}
+		public Rectangulo(string color, double b, double a)
+		{
+			this.b = b;
+			this.a = a;
+			this.color = color;
+		}
+		public void Mostrar(){
+			Console.WriteLine("\n Objeto Rectangulo");
+			base.Mostrar();
+			Console.WriteLine("[Base : "+this.b+"*"+this.a*": Altura]" );
+		}
+		//override para indicar de que se implementa un metodo abstracto
+		public override void Area(){
+			Console.WriteLine("\nArea de Rectangulo");
+			Console.WriteLine((this.b*this.a));
+		}
+		public override double Perimetro(){
+			Console.WriteLine((2*this.b)+(2*this.a));
 		}
 	}
 }
