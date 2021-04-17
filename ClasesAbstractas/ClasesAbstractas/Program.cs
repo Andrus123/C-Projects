@@ -63,6 +63,17 @@ namespace ClasesAbstractas
 			//c)
 			D.CompTriangulo(D,E);
 			
+			//d)
+			Circulo F = new Circulo();
+			Circulo G = new Circulo("Celeste",8);
+			F.Mostrar();
+			G.Mostrar();
+			Console.WriteLine("Area y Perimetro de Circulos");
+			F.Area();
+			F.Perimetro();
+			G.Area();
+			G.Perimetro();
+			
 			//b)
 			Console.WriteLine("\nN objetos cuadrado");
 			int n = 5;
