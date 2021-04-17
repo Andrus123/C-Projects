@@ -53,9 +53,15 @@ namespace ClasesAbstractas
 			
 			//a)
 			Triangulo D = new Triangulo();
+			Triangulo E = new Triangulo("naranja",6.7,7);
 			Console.WriteLine("Area y Perimetro de Figuras Triangulo");
 			D.Area();
 			D.Perimetro();
+			E.Area();
+			E.Perimetro();
+			
+			//c)
+			D.CompTriangulo(D,E);
 			
 			//b)
 			Console.WriteLine("\nN objetos cuadrado");

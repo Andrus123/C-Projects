@@ -34,6 +34,14 @@ namespace ClasesAbstractas
 			base.Mostrar();
 			Console.WriteLine("Base: " +this.b +" Altura: "+this.a);
 		}
+		
+		public void CompTriangulo(Triangulo x, Triangulo y){
+			if(x.Perimetro().Equals(y.Perimetro())){
+				Console.WriteLine("Si son triangulos iguales");
+			}else{
+				Console.WriteLine("Son triangulos diferentes");
+			}
+		}
 		//Override para implementacion de metodo abstracto
 		public override void Area(){
 			Console.WriteLine("Area de Triangulo");
