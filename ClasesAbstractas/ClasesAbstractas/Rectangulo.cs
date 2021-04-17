@@ -35,6 +35,7 @@ namespace ClasesAbstractas
 			base.Mostrar();
 			Console.WriteLine("{Base: "+ this.b+ " Altura: " +this.a+"}");
 		}
+		
 		//override para indicar de que se implementa un metodo abstracto
 		public override void Area(){
 			Console.WriteLine("\nArea de Rectangulo");

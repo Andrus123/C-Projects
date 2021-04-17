@@ -17,6 +17,7 @@ namespace ClasesAbstractas
 			Cuadrado A = new Cuadrado();
 			Cuadrado B = new Cuadrado("Verde",6);
 			Rectangulo C = new Rectangulo();
+			Rectangulo[] rv = new Rectangulo[10];
 			Cuadrado[] vc = new Cuadrado[30]; //Vector de objetos cuadrado, para almacenar
 											  // n objetos cuadrado
 			
@@ -74,6 +75,18 @@ namespace ClasesAbstractas
 			G.Area();
 			G.Perimetro();
 			
+			//e)
+			Console.WriteLine("N objetos Rectangulo");
+			int nro = 4;
+			rv[0] = new Rectangulo();
+			rv[1] = new Rectangulo("azul",5,4);
+			rv[2] = new Rectangulo("lila",9,8);
+			rv[3] = new Rectangulo("rojo",5,3);
+			for(int i=0; i<nro;i++){
+				rv[i].Mostrar();
+			}
+			Console.WriteLine("Rectangulos con el Area similar a Cuadrado: " + RectanCuadrado(rv,nro,A));
+			
 			//b)
 			Console.WriteLine("\nN objetos cuadrado");
 			int n = 5;
@@ -99,7 +112,6 @@ namespace ClasesAbstractas
 			//llamada a procedimientos
 			//llenar(vc, n);
 			mostrar(vc, n);
-			
 			int  c =0;
 			for(int i=0; i<n; i++){
 				if(vc[i].Color == "verde")
@@ -130,6 +142,16 @@ namespace ClasesAbstractas
 			for(int i=0; i<n; i++){
 				if(v[i].Color == colorx)
 					c++;
+			}
+			return c;
+		}
+		//funcion Area Rectangulo Similar a Cuadrado
+		static int RectanCuadrado(Rectangulo[] rv, int nro, Cuadrado A){
+			int c = 0;
+			for(int i=0; i<nro; i++){
+				if(rv[i].Perimetro() == A.Perimetro()){
+					c++;
+				}
 			}
 			return c;
 		}
