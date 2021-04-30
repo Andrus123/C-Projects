@@ -14,10 +14,13 @@ namespace Vehiculo
 	{
 		public static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
-			
-			// TODO: Implement Functionality Here
-			
+			//a) Instanciar un Vehiculo y mostrar datos
+			Vehiculo v1 = new Vehiculo();
+			v1.Mostrar();
+			//b) Verificar si la carroceria es del color x
+			v1.Verfcolor("azul");
+			//c) Determinar el precio total de los neumaticos
+			v1.precioTotal();
 			Console.Write("Press any key to continue . . . ");
 			Console.ReadKey(true);
 		}

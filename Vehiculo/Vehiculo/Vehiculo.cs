@@ -32,7 +32,29 @@ namespace Vehiculo
 			this.n[3] = new Neumatico("goodyear", 15, 750.70);
 		}
 		public void Mostrar(){
-			
+			Console.WriteLine("\nDatos del Vehiculo: ");
+			Console.WriteLine("Marca: "+ this.marca);
+			Console.WriteLine("Placa: "+ this.placa);
+			this.c.Mostrar();
+			Console.WriteLine("N° de neumaticos: "+ this.nroNeumaticos);
+			for(int i=0; i<this.nroNeumaticos; i++){
+				this.n[i].Mostrar();
+			}
+		}
+		public void Verfcolor(string x){
+			if(this.c.Color == x){
+				Console.WriteLine("Si es de color: "+ x);
+			}else{
+				Console.WriteLine("No es de color: "+x+" es de color "+this.c.Color);
+			}
+		}
+		
+		public void precioTotal(){
+			double total = 0;
+			for(int i=0; i<this.nroNeumaticos;i++){
+				total = total + this.n[i].Precio;
+			}
+			Console.WriteLine("Suma total de neumaticos: "+ total);
 		}
 	}
 }
