@@ -1,0 +1,6 @@
+C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\CsharpProjects\Vehiculo\Vehiculo\bin\Debug\Vehiculo.exe.config
+C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\CsharpProjects\Vehiculo\Vehiculo\bin\Debug\Vehiculo.exe
+C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\CsharpProjects\Vehiculo\Vehiculo\bin\Debug\Vehiculo.pdb
+C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\CsharpProjects\Vehiculo\Vehiculo\obj\Debug\Vehiculo.csprojResolveAssemblyReference.cache
+C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\CsharpProjects\Vehiculo\Vehiculo\obj\Debug\Vehiculo.exe
+C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\CsharpProjects\Vehiculo\Vehiculo\obj\Debug\Vehiculo.pdb
