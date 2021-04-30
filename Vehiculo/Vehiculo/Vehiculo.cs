@@ -31,5 +31,8 @@ namespace Vehiculo
 			this.n[2] = new Neumatico("goodyear", 15, 750.70);
 			this.n[3] = new Neumatico("goodyear", 15, 750.70);
 		}
+		public void Mostrar(){
+			
+		}
 	}
 }
