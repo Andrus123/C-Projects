@@ -27,14 +27,14 @@ namespace Multimedia
 			this.marca = "Spotify";
 			this.capacidadGb = 1;
 			this.nroCanciones = 4;
-			cancion[0, 0] = "Paper Planes";cancion[0, 1] = "M.I.A";cancion[0, 2] = "3150Kb"; 
-			cancion[1, 0] = "Out of the Blue";cancion[1, 1] = "Julian Casablancas";cancion[1, 2] = "3250Kb";
-			cancion[2, 0] = "So Many Details";cancion[2, 1] = "Toro y Moi";cancion[2, 2] = "3100Kb";
-			cancion[3, 0] = "Amen";cancion[3, 1] = "Logic";cancion[3, 2] = "3100Kb";
+			cancion[0, 0] = "Paper Planes";cancion[0, 1] = "M.I.A";cancion[0, 2] = "3150"; 
+			cancion[1, 0] = "Out of the Blue";cancion[1, 1] = "Julian Casablancas";cancion[1, 2] = "3250";
+			cancion[2, 0] = "So Many Details";cancion[2, 1] = "Toro y Moi";cancion[2, 2] = "3100";
+			cancion[3, 0] = "Amen";cancion[3, 1] = "Logic";cancion[3, 2] = "3100";
 			this.nroVideos = 3;
-			video[0, 0] = "Without you";video[0, 1] = "Mariah Carey";video[0, 2] = "45Mb";
-			video[1, 0] = "Sweet Caroline";video[1, 1] = "Neil Diamond";video[1, 2] = "30Mb";
-			video[2, 0] = "Racks in the Middle";video[2, 1] = "Nipsey Hussle";video[2, 2] = "50Mb";
+			video[0, 0] = "Without you";video[0, 1] = "Mariah Carey";video[0, 2] = "45";
+			video[1, 0] = "Sweet Caroline";video[1, 1] = "Neil Diamond";video[1, 2] = "30";
+			video[2, 0] = "Racks in the Middle";video[2, 1] = "Nipsey Hussle";video[2, 2] = "50";
 		}
 		public void mostrar(String x, String y)
 		{
@@ -44,13 +44,13 @@ namespace Multimedia
 			if(x=="Canciones"){
 			Console.WriteLine("Tema:         Artista:        Peso:  ");
 			for (int i = 0; i < nroCanciones; i++) {
-				Console.WriteLine(cancion[i, 0] + " - " + cancion[i, 1] + " - " + cancion[i, 2]);
+				Console.WriteLine(cancion[i, 0] + " - " + cancion[i, 1] + " - " + cancion[i, 2]+"Kb");
 			}}
 			if(y=="Videos"){
 			Console.WriteLine("\nN° de videos: " + this.nroVideos);
 			Console.WriteLine("Video:         Artista:        Peso:  ");
 			for (int i = 0; i < nroVideos; i++) {
-				Console.WriteLine(video[i, 0] + " - " + video[i, 1] + " - " + video[i, 2]);
+				Console.WriteLine(video[i, 0] + " - " + video[i, 1] + " - " + video[i, 2]+"Mb");
 			}
 			}
 		}
@@ -111,7 +111,7 @@ namespace Multimedia
 						x.cancion[i,1] = Console.ReadLine();
 					}
 					if(j==2){
-						Console.WriteLine("Peso: ");
+						Console.WriteLine("Peso en Kb: ");
 						x.cancion[i,2] = Console.ReadLine();
 					}
 				}
@@ -130,11 +130,28 @@ namespace Multimedia
 						x.video[i,1] = Console.ReadLine();
 					}
 					if(j==2){
-						Console.WriteLine("Peso:");
+						Console.WriteLine("Peso en Mb:");
 						x.video[i,2] = Console.ReadLine();
 					}
 				}
 			}return(x);
+		}
+		public void Espacio(Mp4 x){
+			double spaceMb = 0;
+			for(int i=0; i<x.nroVideos;i++)
+				for(int j=0; j<3;j++){
+				if(j==2){
+					spaceMb = spaceMb + double.Parse(x.video[i,2]);
+				}
+			}
+			for(int i=0; i<x.nroCanciones;i++)
+				for(int j=0; j<3;j++){
+				if(j==2){
+					spaceMb = spaceMb + (double.Parse(x.cancion[i,2])/1000);
+				}
+			}
+			x.capacidadGb = (x.capacidadGb*1000) - spaceMb;
+			Console.WriteLine("Espacio diponible: "+x.capacidadGb+" Mb");
 		}
 	}
 }
