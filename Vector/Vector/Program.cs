@@ -16,6 +16,9 @@ namespace Vector
 		{
 			Vector v1 = new Vector();
 			v1.mostrar();
+			Vector v2 = new Vector();
+			v2.llenar();
+			v2.mostrar();
 			//a)sobrecargar ++ para sumar elementos del vector
 			v1++;
 			//b)sobrecargar == para sumar elementos del rango ingresado

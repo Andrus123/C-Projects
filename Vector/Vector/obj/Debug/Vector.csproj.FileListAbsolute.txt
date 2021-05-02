@@ -4,3 +4,9 @@ C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\Vector\Vector\bin\Debug
 C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\Vector\Vector\bin\Debug\Vector.pdb
 C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\Vector\Vector\obj\Debug\Vector.exe
 C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\Vector\Vector\obj\Debug\Vector.pdb
+C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\CsharpProjects\Vector\Vector\bin\Debug\Vector.exe.config
+C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\CsharpProjects\Vector\Vector\bin\Debug\Vector.exe
+C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\CsharpProjects\Vector\Vector\bin\Debug\Vector.pdb
+C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\CsharpProjects\Vector\Vector\obj\Debug\Vector.csprojResolveAssemblyReference.cache
+C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\CsharpProjects\Vector\Vector\obj\Debug\Vector.exe
+C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\CsharpProjects\Vector\Vector\obj\Debug\Vector.pdb
