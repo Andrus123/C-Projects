@@ -40,6 +40,7 @@ namespace Vector
 			Console.WriteLine("Cantidad de datos del Vector: ");
 			this.n = int.Parse(Console.ReadLine());
 			for(int i=0; i<n;i++){
+				Console.WriteLine("Inserte dato: "):
 				v[i] = int.Parse(Console.ReadLine());
 			}
 		}
