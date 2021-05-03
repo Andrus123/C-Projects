@@ -4,3 +4,9 @@ C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\Multimedia\Multimedia\b
 C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\Multimedia\Multimedia\obj\Debug\Multimedia.csprojResolveAssemblyReference.cache
 C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\Multimedia\Multimedia\obj\Debug\Multimedia.exe
 C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\Multimedia\Multimedia\obj\Debug\Multimedia.pdb
+C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\CsharpProjects\Multimedia\Multimedia\bin\Debug\Multimedia.exe.config
+C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\CsharpProjects\Multimedia\Multimedia\bin\Debug\Multimedia.exe
+C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\CsharpProjects\Multimedia\Multimedia\bin\Debug\Multimedia.pdb
+C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\CsharpProjects\Multimedia\Multimedia\obj\Debug\Multimedia.csprojResolveAssemblyReference.cache
+C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\CsharpProjects\Multimedia\Multimedia\obj\Debug\Multimedia.exe
+C:\Users\andru\OneDrive\Documentos\SharpDevelop Projects\CsharpProjects\Multimedia\Multimedia\obj\Debug\Multimedia.pdb

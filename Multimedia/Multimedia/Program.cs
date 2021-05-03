@@ -18,22 +18,22 @@ namespace Multimedia
 			Mp4 m2 = new Mp4();
 			Mp4 m3 = new Mp4();
 			m1.mostrar("Canciones","Videos");
-//			//a)Sobrecargar un método para borrar una canción por nombre, por artista y por nombre y peso
-//			Console.WriteLine("\nBorrar una cancion por el nombre: ");
-//			m1.borrarCancion("So Many Details");
-//			m1.mostrar("Canciones","");
-//			Console.WriteLine("\nBorrar una cancion por el artista");
-//			m2.borrarCancion("Julian Casablancas");
-//			m2.mostrar("Canciones","");
-//			Console.WriteLine("\nBorrar una cancion por el nombre y peso");
-//			m3.borrarCancion("Paper Planes","3150Kb");
-//			m3.mostrar("Canciones","");
-//			//b)Sobrecarga de operador + para añadir una cancion
-//			Console.WriteLine(+m1);
-//			m1.mostrar("Canciones","");
-//			//c)Sobrecarga de operador - para añadir un video
-//			Console.WriteLine(-m1);
-//			m1.mostrar("","Videos");
+			//a)Sobrecargar un método para borrar una canción por nombre, por artista y por nombre y peso
+			Console.WriteLine("\nBorrar una cancion por el nombre: ");
+			m1.borrarCancion("So Many Details");
+			m1.mostrar("Canciones","");
+			Console.WriteLine("\nBorrar una cancion por el artista");
+			m2.borrarCancion("Julian Casablancas");
+			m2.mostrar("Canciones","");
+			Console.WriteLine("\nBorrar una cancion por el nombre y peso");
+			m3.borrarCancion("Paper Planes","3150Kb");
+			m3.mostrar("Canciones","");
+			//b)Sobrecarga de operador + para añadir una cancion
+			Console.WriteLine(+m1);
+			m1.mostrar("Canciones","");
+			//c)Sobrecarga de operador - para añadir un video
+			Console.WriteLine(-m1);
+			m1.mostrar("","Videos");
 			//d)Mostrar la capacidad disponible del mp4, tomando en cuenta
 			//  las canciones y videos con los que cuenta
 			m1.Espacio(m1);
