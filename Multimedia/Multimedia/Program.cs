@@ -33,7 +33,7 @@ namespace Multimedia
 			m1.mostrar("Canciones","");
 			//c)Sobrecarga de operador - para añadir un video
 			Console.WriteLine(-m1);
-			m1.mostrar("","Videos");
+			m1.mostrar("Canciones","Videos");
 			//d)Mostrar la capacidad disponible del mp4, tomando en cuenta
 			//  las canciones y videos con los que cuenta
 			m1.Espacio(m1);

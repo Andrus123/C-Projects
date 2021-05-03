@@ -151,7 +151,7 @@ namespace Multimedia
 				}
 			}
 			x.capacidadGb = (x.capacidadGb*1000) - spaceMb;
-			Console.WriteLine("Espacio diponible: "+x.capacidadGb+" Mb");
+			Console.WriteLine("\nEspacio diponible: "+x.capacidadGb+" Mb");
 		}
 	}
 }
